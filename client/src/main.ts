@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+
 import Router from '@/application/router'
 import './presentation/styles/index.css'
 import { loadCities } from '@/infra/store/cities'
@@ -17,6 +18,8 @@ import { darkenColor } from './infra/utils/color'
  */
 
 const { platform, ready, showAlert } = useTelegram()
+
+
 
 if (platform !== 'unknown') {
   switch (platform) {
@@ -37,10 +40,6 @@ if (platform !== 'unknown') {
   }
 }
 
-/**
- * Some clients may use material/apple base styles, but has some overrides
- * For instance, WebK uses material but more rounded and clean
- */
 document.body.classList.add(`is-exact-${platform}`)
 
 /**
