@@ -36,7 +36,7 @@ if (platform !== 'unknown') {
     case 'macos':
 iuygig
 
-
+ryt
     
       document.body.classList.add('is-apple')
       break
