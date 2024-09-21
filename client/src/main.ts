@@ -34,6 +34,9 @@ if (platform !== 'unknown') {
     
 
     case 'macos':
+
+
+    
     
       document.body.classList.add('is-apple')
       break
