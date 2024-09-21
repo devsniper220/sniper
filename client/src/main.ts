@@ -34,8 +34,7 @@ if (platform !== 'unknown') {
     
 
     case 'macos':
-iuygig
-dg
+iuygi
 ryt
     jhgj
       document.body.classList.add('is-apple')
