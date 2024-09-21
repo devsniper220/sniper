@@ -34,7 +34,7 @@ if (platform !== 'unknown') {
     
 
     case 'macos':
-
+iuygig
 
 
     
