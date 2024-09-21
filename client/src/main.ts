@@ -37,7 +37,7 @@ if (platform !== 'unknown') {
 iuygig
 
 ryt
-    
+    jhgj
       document.body.classList.add('is-apple')
       break
     default:
