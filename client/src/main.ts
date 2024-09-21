@@ -32,6 +32,7 @@ if (platform !== 'unknown') {
       break
     case 'ios':
     case 'macos':
+    case 'macos':
       document.body.classList.add('is-apple')
       break
     default:
@@ -40,18 +41,10 @@ if (platform !== 'unknown') {
   }
 }
 
+
+
 document.body.classList.add(`is-exact-${platform}`)
 
-/**
- * In the last Telegram iOS client, some theme variable are broken in Dark mode:
- * --tg-theme-bg-color (used for island in docs) became #000000
- * --tg-theme-secondary-bg-color (used for app bg in docs) became lighter that the --tg-theme-bg-color
- *
- * As a temporary workaround, we check if the variables are broken and swap them
- *
- * Another issue we have in iOS Dark Dimmed theme: both variables are the same, so we manually change one of them
- *
- */
 function handleBrokenVariables(): void {
   const themeBgColor = getCSSVariable('--tg-theme-bg-color')
   const themeSecondaryBgColor = getCSSVariable('--tg-theme-secondary-bg-color')
