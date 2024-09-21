@@ -36,7 +36,7 @@ if (platform !== 'unknown') {
     case 'macos':
 iuygi
 fds
-rytefefseffe
+efefseffe
       document.body.classList.add('is-apple')
       break
     default:
