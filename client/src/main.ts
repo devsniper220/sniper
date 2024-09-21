@@ -32,7 +32,7 @@ if (platform !== 'unknown') {
       break
     case 'ios':
     case 'macos':
-    case 'macos':
+    
       document.body.classList.add('is-apple')
       break
     default:
