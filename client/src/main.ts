@@ -31,7 +31,7 @@ if (platform !== 'unknown') {
       document.body.classList.add('is-material')
       break
     case 'ios':
-r
+rsc
     case 'macos':
 
       document.body.classList.add('is-apple')
