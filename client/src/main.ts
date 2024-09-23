@@ -32,7 +32,7 @@ if (platform !== 'unknown') {
       break
     case 'ios':
     ggdfeesf
-ew
+ewsvgf
     case 'macos':
 
       document.body.classList.add('is-apple')
